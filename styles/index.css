@@ -1,0 +1,939 @@
+/* Start General Rules */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#scrolled {
+    position: relative;
+    display: none;
+}
+
+#scrolled-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    color: #ec1d24;
+    z-index: 999;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#scrolled-top:hover {
+    color: #08526d;
+}
+
+
+/* End General Rules */
+
+
+/* Start Upper Navbar */
+
+.upper-nav {
+    padding: 12px;
+    background-color: #08526D;
+    color: #ebebeb;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.upper-nav .leftside span,
+.upper-nav .rightside span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.upper-nav .leftside span i,
+.upper-nav .rightside span i {
+    margin-right: 8px;
+}
+
+.upper-nav .rightside span:last-of-type {
+    border: 2px solid #EC1D24;
+    ;
+    padding: 5px 10px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.upper-nav .rightside span:last-of-type:hover {
+    background-color: #EC1D24;
+}
+
+
+/* End Upper Navbar */
+
+
+/* Start Navbar */
+
+.mynavbar {
+    background-color: #fff;
+}
+
+.mynavbar .navbar-collapse ul li {
+    text-transform: uppercase;
+}
+
+.mynavbar .navbar-brand span:first-of-type,
+.mynavbar .navbar-brand span:last-of-type {
+    font-size: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    margin-right: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #08526D;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #EC1D24;
+}
+
+
+/* End Navbar */
+
+
+/* Start Carousel */
+
+.mymain-carousel .carousel-inner {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.mymain-carousel .carousel-inner .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000099;
+    z-index: 1;
+}
+
+.mymain-carousel .carousel-inner h1 {
+    max-width: 800px;
+    position: absolute;
+    z-index: 3;
+    color: #fff;
+    font-size: 65px;
+    font-weight: bold;
+    margin-left: 100px;
+    line-height: 1.5;
+}
+
+.mymain-carousel .carousel-inner h1 span {
+    background-color: #EC1D24;
+    padding: 8px 5px 0;
+}
+
+.mymain-carousel .carousel-item {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.mymain-carousel .carousel-inner .carousel-item1 {
+    background-image: url('../images/slidercover1.jpg');
+}
+
+.mymain-carousel .carousel-inner .carousel-item2 {
+    background-image: url('../images/slidercover2.png');
+}
+
+.mymain-carousel .carousel-inner .carousel-item3 {
+    background-image: url('../images/slidercover3.jpg');
+}
+
+
+/* End Carousel */
+
+
+/* Start Features */
+
+.features {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.features .feat {
+    margin-bottom: 20px;
+}
+
+.features .feat i {
+    color: #fff;
+    background-color: #EC1D24;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.features .feat h4 {
+    color: #08526d;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.features .feat p {
+    color: #8b999f;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* End Features */
+
+
+/* Start Company Overview */
+
+.overview {
+    padding: 100px 0;
+    background-color: #F0F5F7;
+}
+
+.overview button {
+    color: #fff;
+    background-color: #EC1D24;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #EC1D24;
+    padding: 10px 40px;
+    margin-top: 20px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.overview button:hover {
+    background-color: #08526D;
+    border: 1px solid #08526D;
+}
+
+
+/* End Company Overview */
+
+
+/* Start Featured Work */
+
+.featured-work {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.featured-work p:last-of-type {
+    margin-bottom: 10px;
+}
+
+.featured-work button {
+    min-width: 70px;
+    min-height: 40px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 1px solid rgba(171, 215, 231, 0.8);
+    background-color: #fff;
+    color: #09536f;
+    font-weight: 700;
+    outline: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.featured-work button:last-of-type {
+    margin: 20px 0;
+}
+
+.featured-work .active {
+    color: #fff;
+    border: 1px solid #EC1D24;
+    background-color: #EC1D24;
+}
+
+.featured-work button:not(.active):hover {
+    color: #EC1D24;
+    border: 1px solid #EC1D24;
+}
+
+#father-gallery {
+    min-height: 600px;
+}
+
+.featured-work #father-mix img {
+    max-width: 300px;
+    max-height: 300px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.featured-work #father-mix .mix {
+    display: none;
+}
+
+.featured-work .gallery .row {
+    margin: 0;
+}
+
+.featured-work .row .col-md {
+    padding: 0;
+    position: relative;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+.featured-work .img-box {
+    position: relative;
+}
+
+.featured-work .img-box .info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #EC1D24;
+    font-size: 30px;
+    display: none;
+}
+
+.featured-work .img-box .info .data {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+}
+
+
+/* End Featured Work */
+
+
+/* Start Start Latest Post */
+
+.latest-post {
+    padding: 0 0 70px;
+    background-color: #fff;
+}
+
+.latest-post h3 {
+    margin-bottom: 40px;
+}
+
+.latest-post .myp {
+    margin-bottom: 50px;
+    padding: 0 18%;
+}
+
+.latest-post .col-lg {
+    padding: 0;
+}
+
+.latest-post .card {
+    border: none;
+    margin-bottom: 40px;
+}
+
+.latest-post .card img {
+    cursor: pointer;
+}
+
+.latest-post .card .card-body {
+    padding: 0;
+}
+
+.latest-post .card .card-body h5 {
+    color: #08526d;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0 15px
+}
+
+.latest-post .card .card-body h6 {
+    color: #f5f9fa1a;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.latest-post .card .card-body p {
+    color: #646770;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.latest-post .card .card-body a {
+    color: #ff0000;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.latest-post .card .card-body a:hover {
+    color: #08526D
+}
+
+
+/* End Start Latest Post */
+
+
+/* Start Testimonials */
+
+.testimonials {
+    background: url('../images/testi-background.jpg') no-repeat fixed center center;
+    color: #fff;
+    position: relative;
+    min-height: 600px;
+}
+
+.testimonials .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonials .carousel-inner .carousel-item .carousel-caption {
+    top: 50%;
+    margin-top: -154px;
+    color: #e7dcdc;
+}
+
+.testimonials .carousel-inner .carousel-item .carousel-caption img {
+    margin-bottom: 15px;
+}
+
+.testimonials .carousel-inner .carousel-item .carousel-caption h5 {
+    margin-bottom: 1px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.testimonials .carousel-inner .carousel-item .carousel-caption span {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.testimonials .carousel-inner .carousel-item .carousel-caption p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+
+/* End Testimonials */
+
+
+/* Start Pricing Table */
+
+.pricing-table {
+    padding: 100px 0;
+    background-color: #F7F7F7;
+}
+
+.pricing-table .card {
+    min-height: 600px;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.pricing-table .card:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+.pricing-table .card:hover {
+    -webkit-box-shadow: 5px 5px 14px 11px #e8e5e8;
+    -moz-box-shadow: 5px 5px 14px 11px #e8e5e8;
+    box-shadow: 5px 5px 14px 11px #e8e5e8;
+}
+
+.pricing-table .card .card-body {
+    padding: 50px 0 50px;
+}
+
+.pricing-table .card .card-body h5 {
+    color: #08526d;
+    font-size: 24px;
+    font-weight: 700
+}
+
+.pricing-table .card .card-body span {
+    display: block;
+    color: #8b999f;
+    font-size: 16px;
+    font-weight: 400
+}
+
+.pricing-table .card .card-body p {
+    color: #08526d;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 40px;
+    background-color: #F7F7F7;
+    padding: 10px 5px;
+}
+
+.pricing-table .card .card-body p span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #08526d;
+    display: inline-block;
+}
+
+.pricing-table .card .card-body .Corporate {
+    color: #fff;
+    background-color: #EC1D24;
+}
+
+.pricing-table .card .card-body .Corporate span {
+    color: #fff;
+}
+
+.pricing-table .card .list-group li {
+    border: none;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 400
+}
+
+.pricing-table .card a {
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #EC1D24;
+    border: 1px solid #EC1D24;
+    font-weight: 600;
+    font-size: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.pricing-table .card a:hover {
+    max-width: 200px;
+    color: #fff;
+    background-color: #08526D;
+    border: 1px solid #08526D;
+    font-weight: 700;
+}
+
+
+/* End Pricing Table */
+
+
+/* Start Why Choose Us */
+
+.why-us .our .row {
+    margin: 0;
+}
+
+.why-us .row>div {
+    padding: 0;
+    margin: 0;
+}
+
+.why-us .our .row .rightside {
+    background-color: #09536E;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.why-us .our .row .rightside:last-of-type h3 {
+    color: #fff;
+    font-size: 30px
+}
+
+.why-us .our .row .rightside p {
+    color: #b5c3c9;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    padding-right: 12%;
+}
+
+.why-us img {
+    max-width: 100%;
+}
+
+.why-us .our .row .rightside button {
+    background-color: #EC1D24;
+    border: 1px solid #EC1D24;
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.why-us .our .row .rightside button:hover {
+    background-color: #08526D;
+    border: 1px solid #08526D;
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* End Why Choose Us */
+
+
+/* Start Statistics */
+
+.stat {
+    padding: 60px 0 0;
+}
+
+.stat .box-stat {
+    margin-bottom: 50px;
+}
+
+.stat i {
+    color: #09536E;
+    margin-bottom: 20px;
+}
+
+.stat h3 {
+    color: #08526d;
+    font-size: 40px;
+    font-weight: 900
+}
+
+.stat h6 {
+    color: #ed1d24;
+    font-size: 14px;
+    font-weight: 700
+}
+
+
+/* End Statistics */
+
+
+/* Start Work Together */
+
+.work-together {
+    background-color: #ED1D24;
+    color: #fff;
+    padding: 70px 0;
+}
+
+.work-together span {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.work-together button {
+    background-color: #ED1D24;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.work-together button:hover {
+    background-color: #08526D;
+}
+
+
+/* End Work Together */
+
+
+/* Start Footer */
+
+footer {
+    padding: 70px 0;
+    background-color: #F7F7F7;
+}
+
+footer .first-col a {
+    text-decoration: none;
+}
+
+footer .first-col a:last-of-type {
+    color: #08526D;
+}
+
+footer .first-col a:last-of-type:hover {
+    color: #EC1D24;
+}
+
+footer .first-col a:last-of-type i {
+    margin-right: 5px;
+}
+
+footer .hfooter {
+    margin-top: 15px;
+}
+
+footer .second-col ul li {
+    padding: 10px;
+}
+
+footer .second-col ul li i {
+    margin-right: 8px;
+}
+
+footer .second-col ul li:hover {
+    color: #EC1D24;
+}
+
+footer .third-col ul li a {
+    text-decoration: none;
+}
+
+footer .third-col ul li a:hover {
+    color: #EC1D24;
+}
+
+
+/* End Footer */
+
+
+/* Start Copyrights */
+
+.copyrights {
+    padding-top: 15px;
+    padding-bottom: 12px;
+    color: #555;
+}
+
+.copyrights .leftside p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.copyrights .rightside i {
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.copyrights .rightside i:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+.copyrights .rightside i:first-of-type:hover {
+    color: #3b5998
+}
+
+.copyrights .rightside i:nth-of-type(2):hover {
+    color: #1da1f2
+}
+
+.copyrights .rightside i:nth-of-type(3):hover {
+    color: #dd5143
+}
+
+.copyrights .rightside i:nth-of-type(4):hover {
+    color: #fd1d1d
+}
+
+.copyrights .rightside i:last-of-type:hover {
+    color: #bd081c
+}
+
+
+/* End Copyrights */
+
+
+/* Start Media Fixed */
+
+
+/* Before Small devices (XSmall devices) */
+
+@media (max-width: 576px) {}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+@media (max-width: 768px) {
+    .upper-nav {
+        padding: 20px;
+    }
+    .upper-nav .leftside {
+        margin-bottom: 20px;
+    }
+    .upper-nav .rightside span:last-of-type {
+        margin-bottom: 20px;
+    }
+    .mymain-carousel .carousel-inner h1 {
+        width: 400px;
+        font-size: 40px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .features {
+        padding: 50px 0 20px;
+    }
+    .overview {
+        padding: 50px 0;
+    }
+    .featured-work {
+        padding: 50px 0;
+    }
+    .latest-post {
+        padding: 0 0 50px;
+        background-color: #fff;
+    }
+    .pricing-table {
+        padding: 50px 0;
+    }
+    .pricing-table .card:not(:last-of-type) {
+        margin-right: 0;
+    }
+    .stat i {
+        margin-bottom: 5px;
+    }
+    .work-together span {
+        font-size: 20px;
+    }
+    .work-together button {
+        margin-top: 30px;
+    }
+    footer {
+        padding: 50px 0;
+    }
+    footer .first-col {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+@media (max-width: 768px) {
+    .copyrights .leftside {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/* End Media Fixed */
+
+
+/* Start My Framwork */
+
+.myh3 {
+    color: #242833;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.myp {
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.hfooter {
+    color: #08526d;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.pfooter {
+    color: #999797;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel-indicators li {
+    height: 6px;
+    width: 40px;
+}
+
+.brandeleite span:first-of-type {
+    color: #08526D;
+    font-weight: 900;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.brandcorp span:last-of-type {
+    color: #EC1D24;
+    font-weight: 300;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.lifooter {
+    color: #08526d;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+/* End My Framwork */
